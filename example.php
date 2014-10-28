@@ -7,7 +7,7 @@
  *
  * @author      John Cuppi
  * @code        http://github.com/jcink/accounts
- * @license     http://github.com/jcink/license
+ * @license     http://unlicense.org/UNLICENSE
  * @version     1.0
  * @updated     4:55 PM Tuesday, October 28, 2014
  * @description A very simple secure account system 
