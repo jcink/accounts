@@ -13,7 +13,7 @@ It's:
 * Does password hashing right - using password_hash() and BCRYPT.
 * Has two different methods of handling logins - sessions and cookies.
 
-I wrote this system for another project I was working on, so it's licensed under UNLICENSE. 
+I wrote this system for another project I was working on. It's licensed under UNLICENSE. 
 This means that you can use this and incorporate it in any application you want without needing
 to credit me or worry about infringement.
 
