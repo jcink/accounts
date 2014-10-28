@@ -8,7 +8,7 @@ Why use this?
 It's:
 
 * Object oriented.
-* Uses PDO for database comparability + prepared statements for security.
+* Uses PDO for database compatibility + prepared statements for security.
 * Provides the basic functionality you need for an account system, but it's not bloated.
 * Does password hashing right - using password_hash() and BCRYPT.
 * Has two different methods of handling logins - sessions and cookies.
