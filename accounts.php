@@ -37,16 +37,17 @@ class Accounts
 		
 		$pdo_config = array();
 		
+		// Database host, name, user, and password
 		$pdo_config['cfg']		   = 'mysql:host=127.0.0.1;dbname=accounts';		
-		$pdo_config['db_user']     = 'root';
-		$pdo_config['database']    = 'root';
+		$pdo_config['db_user']        = 'root';
+		$pdo_config['db_password']    = 'root';
 		
 		if( $this->sessions ) {
 			session_start();
 		}
 		
 		try {
-			$this->db = new PDO($pdo_config['cfg'], $pdo_config['db_user'], $pdo_config['database']);
+			$this->db = new PDO($pdo_config['cfg'], $pdo_config['db_user'], $pdo_config['db_password']);
 			$this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_SILENT);
 		} catch (PDOException $e) {
 			throw new Exception('Could not connect to database.');
