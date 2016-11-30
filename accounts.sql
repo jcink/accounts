@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS `accounts` (
   `avatar` varchar(255) NOT NULL,
   `ip_address` varchar(255) NOT NULL COMMENT 'ipv4 or v6 address',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 --
 -- Dumping data for table `accounts`
@@ -50,7 +50,7 @@ CREATE TABLE IF NOT EXISTS `groups` (
   `g_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `group_name` varchar(64) NOT NULL COMMENT 'group name',
   PRIMARY KEY (`g_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+) DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 --
 -- Dumping data for table `groups`
