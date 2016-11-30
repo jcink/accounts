@@ -9,7 +9,7 @@
  * @code        http://github.com/jcink/accounts
  * @license     http://unlicense.org/UNLICENSE
  * @version     1.0
- * @updated     4:51 PM Tuesday, October 28, 2014
+ * @updated     3:02 PM Wednesday, November 30, 2016
  * @description A very simple secure account system 
  *
  ****************************************************/
@@ -38,7 +38,7 @@ class Accounts
 		$pdo_config = array();
 		
 		// Database host, name, user, and password
-		$pdo_config['cfg']		   = 'mysql:host=127.0.0.1;dbname=accounts';		
+		$pdo_config['cfg']	      = 'mysql:host=127.0.0.1;dbname=accounts';		
 		$pdo_config['db_user']        = 'root';
 		$pdo_config['db_password']    = 'root';
 		
